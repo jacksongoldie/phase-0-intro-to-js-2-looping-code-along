@@ -1,18 +1,23 @@
-/*/ Code your solutions in this file
-const gifts = ["teddy bear", "drone", "doll"];
+//NEW CODE
 
-function wrapGifts(gifts) {
-  for (let i = 0; i < gifts.length; i++) {
-    console.log(`Wrapped ${gifts[i]} and added a bow!`);
-  }
-
-  return gifts;
+//For loop
+function writeCards(namesArray, eventName){
+   const returnedArray = [];
+    for(let i=0; i < namesArray.length; i++){
+        returnedArray.push(`Thank you, ${namesArray[i]}, for the wonderful ${eventName} gift!`)
+    }
+    return returnedArray;
 }
 
-wrapGifts(gifts);
-*/
+//while loop
+function countDown(int){
+    let i = 0;
+    while(i <= int){
+        console.log(i++)
+    }
+}
 
-//writeCards function
+/* //writeCards function
 //for adding the string to the Array, I've tried newArrayToMessages[i] = 
 function writeCards(stringNames, eventName){
     const newArrayToMessages = [];
@@ -31,7 +36,7 @@ function writeCards(array, event) {
     return cards;
 }
 */
-
+/*
 function countDown(positiveInt){
     let i = 0;
     while (i <= 10){
@@ -39,3 +44,4 @@ function countDown(positiveInt){
     }
 }
 
+ */
